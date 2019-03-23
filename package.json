@@ -1,0 +1,33 @@
+{
+  "name": "favorite-sites",
+  "version": "1.0.0",
+  "description": "Just some quick-links to my favorite sites",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --mode development",
+    "start": "webpack-dev-server --mode development --open --hot "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Subtora/favorite-sites.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Subtora/favorite-sites/issues"
+  },
+  "homepage": "https://github.com/Subtora/favorite-sites#readme",
+  "dependencies": {
+    "node": "^11.12.0",
+    "webpack": "^4.29.6"
+  },
+  "devDependencies": {
+    "css-loader": "^2.1.1",
+    "html-webpack-plugin": "^3.2.0",
+    "style-loader": "^0.23.1",
+    "webpack-cli": "^3.3.0",
+    "webpack-dev-server": "^3.2.1"
+  }
+}
